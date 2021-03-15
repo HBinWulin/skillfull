@@ -1,0 +1,6 @@
+version = rootProject.ext.version["skillfull-core:core-mvc"]
+
+
+dependencies {
+    compile project(':skillfull-core:core-common')
+}

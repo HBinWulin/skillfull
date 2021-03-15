@@ -1,0 +1,24 @@
+// 指定plugin下载仓库
+pluginManagement {
+    repositories {
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        gradlePluginPortal()
+    }
+}
+
+
+// 项目信息
+rootProject.name = 'SkillFull'
+
+// 模块
+include 'skillfull-system'
+
+// boot
+include 'skillfull-admin-boot'
+
+// 工具
+include 'skillfull-core:core-mvc'
+include 'skillfull-core:core-webflux'
+include 'skillfull-core:core-common'
+include 'skillfull-core:core-data-permission-webmvc'
+include 'skillfull-core:core-data-permission-webflux'

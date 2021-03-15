@@ -1,0 +1,1 @@
+version = rootProject.ext.version["skillfull-core:core-common"]
